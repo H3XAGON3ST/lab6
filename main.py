@@ -10,3 +10,10 @@ def AddString(str_list, pos, str):
     return str_list
   except:
     return "paste operation is not possible"
+def DeleteString(str_list, pos):
+  try:
+    str_list.del(pos)
+    return str_list
+  except:
+    return "delete operation is not possible"
+
